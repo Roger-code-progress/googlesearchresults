@@ -1,0 +1,22 @@
+.navigationcontainer {
+    display: flex;
+}
+
+.navigationbabycontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.topnavigationsectionforlogo {
+    display: flex;
+    flex-direction: row;
+}
+
+#GoogleLogo {
+    width: 90px;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 25px;
+    background-color: red;
+}
+
