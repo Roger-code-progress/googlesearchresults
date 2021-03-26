@@ -1,3 +1,4 @@
+/*Header*/
 .navigationcontainer {
     display: flex;
     flex-direction: column;
@@ -157,4 +158,51 @@
     padding: 0.8px;
     background: rgb(241, 241, 241);
 }
+/*Main*/
+.mainbody {
+    background-color: red;
+    margin-left: 185px;
+    width: 600px;
+    height: 1000px;
+}
 
+/* Footer */
+.countrycontainer {
+    display:flex;
+    flex-direction: column;
+    font-family: arial, sans-serif;
+    color:rgba(0, 0, 0, 87);
+    width: 100%;
+    bottom: 0%;
+}
+
+.country {
+    background-color: rgb(235, 235, 235);
+    padding: 15px 185px;
+}
+
+.origin {
+    color:rgb(153, 153, 153)
+}
+
+.line {
+    background-color: rgb(224, 224, 224);
+    padding: 1px;
+}
+
+
+.otherinfo {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+}
+
+.belowcountry {
+    display: flex;
+    padding: 15px 170px;
+    color:rgb(153, 153, 153)
+}
+
+#HSPT {
+    margin-left: 15px;
+    cursor: pointer;
+}
