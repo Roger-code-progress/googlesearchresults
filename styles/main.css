@@ -203,6 +203,7 @@
 
 .description {
     font: 14px arial,sans-serif;
+    color: #4d5156;
 }
 
 b {
@@ -217,6 +218,7 @@ b {
     border-radius: 8px;
     outline: 1px;
     box-shadow: 0px 0px 1px #000;
+    margin-bottom: 20px;
 }
 
 .pasf {
@@ -235,6 +237,58 @@ b {
     padding-top: 5px;
     color: #1a0dab;
     font: 14px arial,sans-serif;
+}
+
+.peoplealsoaskcontainer {
+    background-color: transparent;
+    padding: 20px 0px 30px 0px;
+}
+
+.paatitle {
+    font: 20px arial, sans-serif;
+    color: #202124;
+    padding: 0px 0px 10px 0px;
+}
+
+#paaline {
+    padding: 0.8px;
+    background-color:rgb(150, 150, 150);
+    margin-top: 10px;
+}
+
+#paacline {
+    height: 0.8px;
+    background-color: rgb(150, 150, 150);
+    margin-top: 8px;
+}
+
+.paacontent {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+#paacp {
+    padding: 10px 0px 10px 0px;
+}
+
+
+#lastfeedbacklinecontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#feedbackline {
+    background-color: rgb(150, 150, 150);
+    margin-top: 18px;
+    margin-bottom: 15px;
+    width: 570px;
+}
+
+#feedback {
+    color: #70757a;
+    font: 12px arial, sans-serif;
+    margin: 10px;
 }
 /* Footer */
 .countrycontainer {
