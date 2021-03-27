@@ -349,10 +349,36 @@ em {
     font: 20px arial,sans-serif;
     color: #202124;
     padding: 30px 0px 20px 0px;
-    font-weight: normal;
 }
 
+.rsresultscontainer {
+    width:600px;
+    height: auto;
+    font: 16px arial,sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
 
+.rsresults {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f3f4;
+    width: 318px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+#rsmagniglass {
+    width: 20px;
+    height: 20px;
+    margin: 15px 20px 10px 20px;
+}
+
+#rstext {
+    padding: 6px 0px 0px 0px;
+}
 /* Footer */
 .countrycontainer {
     display:flex;
