@@ -384,6 +384,10 @@ em {
 #rstextsingle {
     padding-top: 14px;
 }
+
+.gooooglebar {
+    margin: 0px 145.5px 30px 145.5px;
+}
 /* Footer */
 .countrycontainer {
     display:flex;
@@ -423,4 +427,8 @@ em {
 #HSPT {
     margin-left: 15px;
     cursor: pointer;
+}
+
+#HSPT:hover {
+    color: rgb(122, 122, 122);
 }
