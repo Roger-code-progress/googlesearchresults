@@ -201,6 +201,14 @@
     padding: 5px 0px 5px 0px;
 }
 
+.websiteheader:hover {
+    text-decoration: underline;
+}
+
+#webpage:hover, .websiteheader:hover {
+    cursor: pointer;
+}
+
 .description {
     font: 14px arial,sans-serif;
     color: #4d5156;
@@ -270,6 +278,7 @@ b {
 
 #paacp {
     padding: 10px 0px 10px 0px;
+    cursor: pointer;
 }
 
 
@@ -289,6 +298,11 @@ b {
     color: #70757a;
     font: 12px arial, sans-serif;
     margin: 10px;
+}
+
+#feedback:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 /* Footer */
 .countrycontainer {
